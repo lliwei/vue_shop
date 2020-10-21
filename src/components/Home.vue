@@ -66,6 +66,7 @@ export default {
     this.activePath = sessionStorage.getItem('activePath');
   },
   methods: {
+    // 退出
     logout() {
       sessionStorage.clear();
       this.$router.push('/login');

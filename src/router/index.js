@@ -4,6 +4,8 @@ import Login from '../components/Login.vue';
 import Home from '../components/Home.vue';
 import Welcome from '../components/Welcome.vue';
 import User from '../components/user/User.vue';
+import PowerItem from '../components/power/PowerItem.vue';
+import Roles from '../components/power/Roles.vue';
 
 Vue.use(VueRouter);
 
@@ -25,6 +27,8 @@ const routes = [
     children: [
       { path: '/welcome', name: 'Welcome', component: Welcome },
       { path: '/users', name: 'User', component: User },
+      { path: '/rights', name: 'PowerItem', component: PowerItem },
+      { path: '/roles', name: 'Roles', component: Roles },
     ],
   },
 ];
