@@ -6,6 +6,8 @@ import Welcome from '../components/Welcome.vue';
 import User from '../components/user/User.vue';
 import PowerItem from '../components/power/PowerItem.vue';
 import Roles from '../components/power/Roles.vue';
+import Cate from '../components/goods/Cate.vue';
+import Params from '../components/goods/Params.vue';
 
 Vue.use(VueRouter);
 
@@ -29,6 +31,8 @@ const routes = [
       { path: '/users', name: 'User', component: User },
       { path: '/rights', name: 'PowerItem', component: PowerItem },
       { path: '/roles', name: 'Roles', component: Roles },
+      { path: '/categories', name: 'Cate', component: Cate },
+      { path: '/params', name: 'Params', component: Params },
     ],
   },
 ];
